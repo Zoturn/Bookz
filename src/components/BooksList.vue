@@ -36,9 +36,14 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
     .book {
         text-align: left;
         padding: 10px 25px;
+        span {
+            margin-left: 15px;
+            color: lightblue;
+            cursor: pointer;
+        }
     }
 </style>
